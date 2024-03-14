@@ -1,11 +1,12 @@
 # Seek-and-Destroy
+Simple HTML canvas game
 
--Simple HTML canvas game
+
 -Player (white dot) must evade the enemies (black dots) while trying to consume food (green dots)
 -When player consumes all food, game ends and a green circle appears
 -A red circle appears if enemy comes into contact with player
--When an enemy can "see" the player, the enemy shines a red beam at player 
--Enemies are programmed with algorithms to search for player
+-Enemies cannot see through walls. When an enemy can "see" the player, the enemy shines a red beam at player.
+-Enemies are programmed with algorithms to search for players probable location base on last sighting
 
 Usage:
 'a' or LEFT ARROW    Turn left;
